@@ -1,0 +1,20 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Model artifacts / training outputs
+dapt_model/
+dapt_adapted_model/
+hf_disease_classifier/
+
+# Common experiment trackers
+wandb/
+runs/
